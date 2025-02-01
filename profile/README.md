@@ -1,6 +1,6 @@
 # SKUD Modernization Project at the Financial University
 
-![Financial University](profile/logo.svg)
+![Financial University](/profile/logo.svg)
 
 ## Project Description
 
