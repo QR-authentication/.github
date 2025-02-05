@@ -19,7 +19,7 @@
 
 - **Backend**: golang, gRPC, PostgreSQL, Gateway API
 - **Frontend**: js, css, html
-- **Security**: AES-256
+- **Security**: JWT token
 
 ## Тестирование
 
