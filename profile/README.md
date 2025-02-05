@@ -1,22 +1,26 @@
-# SKUD Modernization Project at the Financial University
+# Проект модернизации СКУД в Финансовом университете
 
 ![Financial University](/profile/logo.svg)
 
-## Project Description
+## Описание проекта
 
-This project aims to modernize the Access Control and Management System (SKUD) in one of the buildings of the Financial University. The main goal is to enhance convenience, security, and efficiency in access management using modern technologies such as **QR authentication**.
+Этот проект направлен на модернизацию системы контроля и управления доступом (СКУД) в одном из зданий Финансового университета. Основная цель — повысить удобство, безопасность и эффективность управления доступом с использованием современных технологий, таких как аутентификация по QR-кодам
 
-## Key Features
+## Основные особенности
 
-- **QR Authentication**: Students and staff can use QR codes generated in the mobile app for quick and secure building access.
-- **Integration with Existing SKUD System**: The project seamlessly integrates with the university's current infrastructure, minimizing implementation costs.
-- **Analytics and Reporting**: Administrators can access detailed reports on attendance and activity within the building.
+- Студенты и сотрудники могут использовать QR-коды вместо пластиковых карт, которые могут размагнититься или потеряться
+- Проект легко интегрируется с текущей инфраструктурой университета, что минимизирует затраты на внедрение
+- В проекте представлен универсальный код, который можно интегировать куда угодно (telegram bot, приложение Финансового Университета и т.п.)
+- Администраторы получают доступ к детальным отчетам о посещаемости
+- Простое и интуитивно понятное управление доступом для всех пользователей
+- Использование современных методов шифрования и защиты данных для предотвращения несанкционированного доступа
 
-## Technologies
+## Используемые технологии
 
-- **Backend**:
-- **Frontend**:
-- **QR Codes**:
-- **Security**:
+- **Backend**: golang, gRPC, PostgreSQL, Gateway API
+- **Frontend**: js, css, html
+- **Security**: AES-256
 
-## Installation and Setup
+## Тестирование
+
+Тестировочную версию можно открыть, перейдя по ссылке http://146.0.77.88:8787
