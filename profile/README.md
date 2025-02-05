@@ -17,7 +17,7 @@
 
 ## Используемые технологии
 
-- **Backend**: golang, gRPC, PostgreSQL, Gateway API
+- **Backend**: golang, gRPC, protobuf, PostgreSQL, Gateway API
 - **Frontend**: js, css, html
 - **Security**: JWT token
 
