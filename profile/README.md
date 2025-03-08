@@ -18,8 +18,8 @@
 ## Используемые технологии
 
 - **Backend**: golang, gRPC, protobuf, PostgreSQL, Gateway API
-- **Frontend**: js, css, html
-- **Security**: JWT token
+- **Frontend**: nginx, html, css, js
+- **Security**: JWT token, bcrypt
 
 ## Тестирование
 
